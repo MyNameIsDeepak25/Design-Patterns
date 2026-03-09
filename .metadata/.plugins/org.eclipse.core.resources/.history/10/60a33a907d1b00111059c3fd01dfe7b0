@@ -30,10 +30,7 @@ public class School implements Cloneable {
 			System.out.println(sc1);
 			School sc2=(School) sc1.clone();
 			System.out.println(sc2);
-			Student s2 = new Student("Mahesh");
-			
-			//even we updated the name we can still see old name 
-			System.out.println(sc1.student.getName());
+
 		
 		}
 		
