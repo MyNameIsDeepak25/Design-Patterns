@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.infy.cloneExample&apos; to &apos;com.infy.shallowClone&apos;&#x0D;&#x0A;- Original project: &apos;Clonning&apos;&#x0D;&#x0A;- Original element: &apos;Clonning/src/com.infy.cloneExample&apos;&#x0D;&#x0A;- Renamed element: &apos;Clonning/src/com.infy.shallowClone&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.infy.cloneExample&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.infy.cloneExample" name="com.infy.shallowClone" qualified="false" references="true" stamp="1773035611667" textual="false" version="1.0"/>
-</session>
