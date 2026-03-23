@@ -1,0 +1,25 @@
+package com.infy.slightloose;
+
+public class Customer {
+	
+	Plan thePlan;
+	
+	
+
+	
+	public Customer(Plan thePlan) {
+		this.thePlan = thePlan;
+	}
+
+
+
+
+	public void register() {
+		if(thePlan.enrollToPlan()) {
+			System.out.println("Customer regiestered successfully");
+		}else {
+			System.out.println("UNPAID");
+		}
+	}
+
+}

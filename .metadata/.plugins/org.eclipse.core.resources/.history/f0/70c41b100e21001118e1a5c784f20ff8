@@ -1,0 +1,11 @@
+package com.infy.springdi;
+
+public class PostPaid implements Plan {
+
+	@Override
+	public boolean enrollToPlan() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

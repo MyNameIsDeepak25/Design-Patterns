@@ -1,0 +1,9 @@
+package com.infy.tightCouple;
+
+public class Prepaid {
+	
+	public boolean enrollToPlan() {
+		return true;
+	}
+
+}

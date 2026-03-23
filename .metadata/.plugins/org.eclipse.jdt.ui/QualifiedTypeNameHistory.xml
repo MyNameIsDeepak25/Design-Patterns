@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="com.infy.cloneExample.Student"/>
+    <fullyQualifiedTypeName name="com.infy.cloneExample.School"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+    <fullyQualifiedTypeName name="com.infy.tightCouple.Customer"/>
+    <fullyQualifiedTypeName name="com.infy.tightCouple.Prepaid"/>
+    <fullyQualifiedTypeName name="com.infy.tightCouple.Postpaid"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.infy.slightloose.Plan"/>
+    <fullyQualifiedTypeName name="com.infy.slightloose.PrePaid"/>
+    <fullyQualifiedTypeName name="com.infy.slightloose.Customer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.infy.user.Plan"/>
+    <fullyQualifiedTypeName name="com.infy.user.PrePaid"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.infy.user.SpringConfig"/>
+    <fullyQualifiedTypeName name="com.infy.user.Customer"/>
+    <fullyQualifiedTypeName name="com.infy.main.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,39 @@
+package com.infy.cloneExample;
+
+public class School implements Cloneable {
+	
+	
+	private String dept;
+	private Student student;
+	public School(String dept, Student student) {
+		this.dept = dept;
+		this.student = student;
+	}
+	
+	protected Object clone() throws CloneNotSupportedException{
+		
+		return super.clone();
+	}
+	
+	
+	
+		
+		@Override
+	public String toString() {
+		return "School [dept=" + dept + ", student=" + student + "]";
+	}
+
+		public static void main(String[] args) throws CloneNotSupportedException {
+			Student s1= new Student("Rajan");
+			School sc1 =new School("IT", s1);
+			
+			System.out.println(sc1);
+			School sc2=(School) sc1.clone();
+			System.out.println(sc2);
+
+		
+		}
+		
+	
+
+}

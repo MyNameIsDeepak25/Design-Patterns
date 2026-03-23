@@ -1,0 +1,11 @@
+package com.infy.user;
+
+
+public class PrePaid implements Plan{
+
+	public boolean enrollToPlan() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

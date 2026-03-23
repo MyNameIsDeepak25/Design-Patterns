@@ -1,0 +1,18 @@
+package com.infy.tightCouple;
+
+public class Customer {
+	
+	Prepaid thePrepaid;
+	
+	public void register() {
+		if(thePrepaid.enrollToPlan()) {
+			System.out.println("Customer registered successfuly");
+		}
+		throw new RuntimeException("UNPAID");
+	}
+
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+		customer.register();
+	}
+}

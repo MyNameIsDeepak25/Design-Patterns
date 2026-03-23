@@ -1,0 +1,66 @@
+package com.infy.main;
+
+import java.security.KeyStore.Entry;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+public class Employee {
+	
+	private int id;
+	private String name;
+	private double salary;
+	public Employee(int id, String name, double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+	public static void main(String[] args) {
+		List<Employee> list = List.of(
+				
+				new Employee(1211213, "Rajan", 80000),
+				new Employee(1211214, "Brian", 74000),
+				new Employee(1211215, "Max", 80000),
+				new Employee(1211216, "Simon", 74000)
+				
+				);
+		
+		
+	
+}
+	
+
+		 
+		   
+		
+		
+		  
+	
+		
+
+	
+		
+	
+	
+	
+		
+	
+	
+	
+
+}
+}
