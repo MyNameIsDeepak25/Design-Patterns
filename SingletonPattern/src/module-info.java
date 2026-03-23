@@ -5,5 +5,5 @@
  * @author Expert
  *
  */
-module Clonning {
+module SingletonPattern {
 }
